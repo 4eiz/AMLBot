@@ -1,0 +1,103 @@
+{
+    "data": {
+        "0x9ac51754d5ec64ef95bf17ae5a0a82fea76cdb20ea151310c022b0374a22fe33": {
+            "transaction": {
+                "block_id": 22083018,
+                "id": 22083018000033,
+                "index": 33,
+                "hash": "0x9ac51754d5ec64ef95bf17ae5a0a82fea76cdb20ea151310c022b0374a22fe33",
+                "date": "2025-03-19",
+                "time": "2025-03-19 19:32:11",
+                "failed": false,
+                "type": "call",
+                "sender": "0x9f1cbe98482ec6815b3f0e1b704daaa66575c4a1",
+                "recipient": "0xb8c77482e45f1f44de1745f52c74426c631bdd52",
+                "call_count": 1,
+                "value": "0",
+                "value_usd": 0,
+                "internal_value": "0",
+                "internal_value_usd": 0,
+                "fee": "138293014194364",
+                "fee_usd": 0.267281197660969,
+                "gas_used": 47578,
+                "gas_limit": 60440,
+                "gas_price": 2906658838,
+                "input_hex": "a9059cbb000000000000000000000000e76592041e80dea0133adb53c6494f58077c423800000000000000000000000000000000000000000000000003094f0946b4c518",
+                "nonce": 298,
+                "v": "00",
+                "r": "e0c9dc96177917c89e016fc026943655d22616b761b8d6e2fb2a3059fa6a064a",
+                "s": "3c48fdf7f8049a3cc74b536a89363e77b2b4932f974a1c1f8d24805d80d52196",
+                "version": 2,
+                "effective_gas_price": 2906658838,
+                "max_fee_per_gas": 3041897366,
+                "max_priority_fee_per_gas": 2000000000,
+                "base_fee_per_gas": 906658838,
+                "burned": "43137014194364",
+                "type_2718": 2
+            },
+            "calls": [
+                {
+                    "block_id": 22083018,
+                    "transaction_id": 22083018000033,
+                    "transaction_hash": "0x9ac51754d5ec64ef95bf17ae5a0a82fea76cdb20ea151310c022b0374a22fe33",
+                    "index": "0",
+                    "depth": 0,
+                    "date": "2025-03-19",
+                    "time": "2025-03-19 19:32:11",
+                    "failed": false,
+                    "fail_reason": null,
+                    "type": "call",
+                    "sender": "0x9f1cbe98482ec6815b3f0e1b704daaa66575c4a1",
+                    "recipient": "0xb8c77482e45f1f44de1745f52c74426c631bdd52",
+                    "child_call_count": 0,
+                    "value": "0",
+                    "value_usd": 0,
+                    "transferred": true,
+                    "input_hex": "a9059cbb000000000000000000000000e76592041e80dea0133adb53c6494f58077c423800000000000000000000000000000000000000000000000003094f0946b4c518",
+                    "output_hex": null
+                }
+            ],
+            "layer_2": {
+                "erc_20": [
+                    {
+                        "token_address": "0xb8c77482e45f1f44de1745f52c74426c631bdd52",
+                        "token_name": "BNB",
+                        "token_symbol": "BNB",
+                        "token_decimals": 18,
+                        "sender": "0x9f1cbe98482ec6815b3f0e1b704daaa66575c4a1",
+                        "recipient": "0xe76592041e80dea0133adb53c6494f58077c4238",
+                        "value": "218792958163731736",
+                        "value_approximate": 0.21879295816373173
+                    }
+                ]
+            }
+        }
+    },
+    "context": {
+        "code": 200,
+        "source": "D",
+        "results": 1,
+        "state": 22083162,
+        "state_layer_2": 22083162,
+        "market_price_usd": 2031.38,
+        "cache": {
+            "live": true,
+            "duration": 30,
+            "since": "2025-03-19 20:01:14",
+            "until": "2025-03-19 20:01:44",
+            "time": null
+        },
+        "api": {
+            "version": "2.0.95-ie",
+            "last_major_update": "2022-11-07 02:00:00",
+            "next_major_update": "2023-11-12 02:00:00",
+            "documentation": "https://blockchair.com/api/docs",
+            "notice": "Try out our new API v.3: https://3xpl.com/data"
+        },
+        "servers": "API4,ETH3,ETH3",
+        "time": 1.1220669746398926,
+        "render_time": 0.045938968658447266,
+        "full_time": 1.1680059432983398,
+        "request_cost": 2
+    }
+}

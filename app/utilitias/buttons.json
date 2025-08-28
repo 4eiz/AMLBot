@@ -1,0 +1,77 @@
+{
+    "menu": {
+        "check": {
+            "en": "Check",
+            "ru": "Проверить"
+        },
+        "balance": {
+            "en": "Balance",
+            "ru": "Баланс"
+        },
+        "account": {
+            "en": "My account",
+            "ru": "Мой аккаунт"
+        },
+        "replenish": {
+            "en": "Replenish",
+            "ru": "Пополнить"
+        },
+        "cancel": {
+            "en": "Cancel",
+            "ru": "Отмена"
+        }
+    },
+
+    "replenish": {
+        "cancel": {
+            "en": "Cancel",
+            "ru": "Отмена"
+        }
+    },
+
+    "choose_check": {
+        "adress": {
+            "en": "Address",
+            "ru": "Адрес"
+        },
+        "transaction": {
+            "en": "Transaction",
+            "ru": "Транзакцию"
+        }
+    },
+
+    "choose_transaction": {
+        "incoming": {
+            "en": "Incoming transaction",
+            "ru": "Входящая транзакция"
+        },
+        "outgoing": {
+            "en": "Outgoing transaction",
+            "ru": "Исходящая транзакция"
+        }
+    },
+
+    "account": {
+        "support": {
+            "en": "Support",
+            "ru": "Поддержка"
+        },
+        "balance": {
+            "en": "Balance",
+            "ru": "Баланс"
+        },
+        "referral": {
+            "en": "Referral",
+            "ru": "Рефералка"
+        }
+    },
+
+    "referral_menu": {
+        "back": {
+            "en": "Back",
+            "ru": "Назад"
+        }
+    }
+
+}
+

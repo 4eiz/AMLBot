@@ -1,0 +1,173 @@
+{
+    "menu": {
+        "en": "<b>Need to check cryptocurrency?\nPlease enter the wallet or transaction address, and I will assess the blockchain activity for risks for you</b>",
+        "ru": "<b>Нужно проверить криптовалюту?\nВведите, пожалуйста, адрес кошелька или транзакции, а я дам оценку активности блокчейна на предмет рисков для Вас</b>"
+    },
+
+    "balance": {
+        "en": "<b>You have:\n<code>{bought_checks}</code> purchased checks\n<code>{free_checks}</code> free checks</b>",
+        "ru": "<b>У вас:\n<code>{bought_checks}</code> купленных проверок\n<code>{free_checks}</code> бесплатных проверок</b>"
+    },
+
+    "check": {
+        "en": "<b>Choose what you want to check:</b>",
+        "ru": "<b>Выберите, что вы хотите проверить:</b>"
+    },
+
+    "account": {
+        "en": "<b>Please use the menu:</b>",
+        "ru": "<b>Пожалуйста, используйте меню:</b>"
+    },
+
+    "replenish_1": {
+        "en": "<b>Enter the required quantity:</b>",
+        "ru": "<b>Введите нужное количество:</b>"
+    },
+
+    "replenish_2": {
+        "en": "<b>Total price: <code>{total_price}</code></b>",
+        "ru": "<b>Общая стоимость: <code>{total_price}</code></b>"
+    },
+
+    "replenish_2.1": {
+        "en": "<b>Enter the promo code (if missing, write '<code>-</code>')</b>",
+        "ru": "<b>Введите промокод (если отсутствует, пишите '<code>-</code>')</b>"
+    },
+
+    "replenish_3": {
+        "en": "<b>⏳ 🔹 Follow the link from the button to pay!\n🔄 After successful payment, the funds will automatically be credited to your balance.</b>",
+        "ru": "<b>⏳ 🔹 Перейдите по ссылке из кнопки для оплаты!\n🔄 После успешной оплаты, средства автоматически поступят на ваш баланс.</b>"
+    },
+
+    "replenish_4": {
+        "en": "<b>✅ Balance replenished by <code>{amount}</code></b>",
+        "ru": "<b>✅ Баланс пополнен на <code>{amount}</code></b>"
+    },
+
+    "replenish_5": {
+        "en": "<b>Application <code>{payment_id}</code> is overdue.</b>",
+        "ru": "<b>Заявка <code>{payment_id}</code> просрочена.</b>"
+    },
+
+    "referral_system": {
+        "en": "<b>Your referral link: <code>{link}</code> </b>",
+        "ru": "<b>Ваша реферальная ссылка: <code>{link}</code> </b>"
+    },
+
+    "support": {
+        "en": "<b>If you have any questions or suggestions about the functionality of Simple Check, please contact me @eden_88)</b>",
+        "ru": "<b>Если у вас есть вопросы или предложения по функциональности Simple Check, пожалуйста, свяжитесь со мной @eden_88)</b>"
+    },
+
+    "ref1": {
+        "en": "<b>@{name} has become your new referral, you have received 1 free check!</b>",
+        "ru": "<b>@{name} стал вашим новым рефералом, вы получили 1 бесплатную проверку!</b>"
+    },
+
+    "ref2": {
+        "en": "<b>@{name} has become your new referral!</b>",
+        "ru": "<b>@{name} стал вашим новым рефералом!</b>"
+    },
+
+
+
+    "search0": {
+        "en": "<b>Select network:</b>",
+        "ru": "<b>Выберите сеть:</b>"
+    },
+
+    "search1": {
+        "en": "<b>Select token:</b>",
+        "ru": "<b>Выберите токен:</b>"
+    },
+
+    "search2": {
+        "en": "<b>Enter address to check:</b>",
+        "ru": "<b>Введите адрес для проверки:</b>"
+    },
+
+    "search3": {
+        "en": "<b>Select transaction direction:</b>",
+        "ru": "<b>Выберите направление транзакции:</b>"
+    },
+
+    "search4": {
+        "en": "<b>Enter transaction hash:</b>",
+        "ru": "<b>Введите хеш транзакции:</b>"
+    },
+
+    "search5": {
+        "en": "<b>Enter recipient address:</b>",
+        "ru": "<b>Введите адрес получателя:</b>"
+    },
+
+
+    "search_error1": {
+        "en": "<b>Error: Token not found.</b>",
+        "ru": "<b>Ошибка: токен не найден.</b>"
+    },
+
+    "search_error2": {
+        "en": "<b>Error: Token not found.</b>",
+        "ru": "<b>Ошибка: токен не найден.</b>"
+    },
+
+    "search_error500": {
+        "en": "<b>Not found!</b>",
+        "ru": "<b>Не найдено!</b>"
+    },
+
+    "balance_error1": {
+        "en": "<b>Error: Not enough balance.</b>",
+        "ru": "<b>Ошибка: Недостаточно баланса.</b>"
+    },
+
+
+    "result_address": {
+        "en": "<b>Address verification result:</b>\n\n<b>Network:</b> <code>{network}</code>\n<b>Address:</b> <code>{address}</code>\n<b>Risk:</b> <code>{risk_level}</code>\n<b>Risk score:</b> <code>{risk_score}</code>\n<b>Currency:</b> <code>{fiat_currency}</code>\n<b>Risks:</b> <code>{risk_types}</code>\n<b>Exposure:</b>\n{exposure_details}\n<b>Check status:</b> <code>{check_status}</code>\n<b>Check date:</b> <code>{checked_at}</code>",
+        "ru": "<b>Результат проверки адреса:</b>\n\n<b>Сеть:</b> <code>{network}</code>\n<b>Адрес:</b> <code>{address}</code>\n<b>Риск:</b> <code>{risk_level}</code>\n<b>Оценка риска:</b> <code>{risk_score}</code>\n<b>Валюта:</b> <code>{fiat_currency}</code>\n<b>Риски:</b> <code>{risk_types}</code>\n\n<b>Экспозиция:</b>\n{exposure_details}\n\n<b>Статус проверки:</b> <code>{check_status}</code>\n<b>Дата проверки:</b> <code>{checked_at}</code>\n\n——\n\n<b>Проверено <a href=\"https://t.me/{bot_username}\">Simple Check</a></b>"
+    },
+
+    "result_transaction": {
+        "en": "<b>Transaction verification result:</b>\n\n<b>Network:</b> <code>{network}</code>\n<b>Token:</b> <code>{token_id}</code>\n<b>Transaction hash:</b> <code>{tx_hash}</code>\n<b>Output address:</b> <code>{output_address}</code>\n<b>Direction:</b> <code>{direction}</code>\n<b>Risk:</b> <code>{risk_level}</code>\n<b>Risk score:</b> <code>{risk_score}</code>\n<b>Currency:</b> <code>{fiat_currency}</code>\n<b>Risks:</b> <code>{risk_types}</code>\n<b>Exposure:</b>\n{exposure_details}\n<b>Check status:</b> <code>{check_status}</code>\n<b>Check date:</b> <code>{checked_at}</code>",
+        "ru": "<b>Результат проверки транзакции:</b>\n\n<b>Сеть:</b> <code>{network}</code>\n<b>Токен:</b> <code>{token_id}</code>\n<b>Хеш транзакции:</b> <code>{tx_hash}</code>\n<b>Адрес получателя:</b> <code>{output_address}</code>\n<b>Направление:</b> <code>{direction}</code>\n<b>Риск:</b> <code>{risk_level}</code>\n<b>Оценка риска:</b> <code>{risk_score}</code>\n<b>Валюта:</b> <code>{fiat_currency}</code>\n<b>Риски:</b> <code>{risk_types}</code>\n<b>Экспозиция:</b>\n{exposure_details}\n<b>Статус проверки:</b> <code>{check_status}</code>\n<b>Дата проверки:</b> <code>{checked_at}</code>"
+    },
+
+
+    "search_info": {
+        "en": "<b>Search started, please wait!</b>",
+        "ru": "<b>Поиск начался, пожалуйста, подождите!</b>"
+    },
+
+
+    "preparation": {
+        "en": "<b>Preparation...</b>",
+        "ru": "<b>Подготовка...</b>"
+    },
+
+
+    "replenish_error1": {
+        "en": "<b>The quantity must be an integer!</b>",
+        "ru": "<b>Количество должно быть целым числом!</b>"
+    },
+
+    "promo1": {
+        "en": "<b>Enter promocode:</b>",
+        "ru": "<b>Введите промокод:</b>"
+    },
+
+    "promo_error1": {
+        "en": "<b>There is no promotional code</b>",
+        "ru": "<b>Промокода не существует</b>"
+    },
+
+    "promo_error3": {
+        "en": "<b>Promo code is inactive</b>",
+        "ru": "<b>Промокода неактивен</b>"
+    },
+
+    "error": {
+        "en": "An error occurred. Please try again later.",
+        "ru": "Произошла ошибка. Пожалуйста, попробуйте позже."
+    }
+}
