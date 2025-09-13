@@ -83,7 +83,7 @@ git init
 git add .
 git commit -m "init AMLBot repo"
 git branch -M main
-git remote add origin https://github.com/<username>/AMLBot.git
+git remote add origin https://github.com/4eiz/AMLBot.git
 git push -u origin main
 
 📜 License
