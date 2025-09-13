@@ -1,109 +1,93 @@
-# 🛡️ AMLBot — Telegram-бот
+# 🛡️ AMLBot — Telegram Bot
 
-![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
-![Aiogram](https://img.shields.io/badge/aiogram-3.x-ff69b4)
-![License](https://img.shields.io/badge/license-MIT-green)
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue)  
+![Aiogram](https://img.shields.io/badge/aiogram-3.x-ff69b4)  
+![License](https://img.shields.io/badge/license-MIT-green)  
 
-AMLBot — многоюзерный Telegram‑бот на **aiogram 3**, с балансом, пополнениями через CryptoBot, профилем, реферальной системой и проверками адресов/транзакций. Конфигурация через `.env`. База данных — SQLite (асинхронно).
+**AMLBot** — a multi-user Telegram bot built with **aiogram 3**, featuring balance management, top-ups via CryptoBot, user profiles, referral system, and address/transaction checks. Configuration is handled through `.env`. The database is SQLite (asynchronous).  
 
----
-
-## ✨ Возможности
-- 👤 Профиль пользователя
-- 💰 Баланс и пополнение (CryptoBot)
-- 🧩 Промокоды / акции
-- 🧷 Реферальная система
-- 🆘 Поддержка
-- 🌐 Смена языка
-- 🔎 Проверка адреса/транзакции (раздел `check`)
-- 🗂️ Хранилище: SQLite (модели/запросы в `data/`)
-
-> Список составлен по исходникам (`app/`, `data/`). При необходимости допишем разделы.
+> 💡 This project is a test and demo version developed for a developer from Croatia.  
 
 ---
 
-## 📂 Структура проекта (сокращённо)
+## ✨ Features
+- 👤 User profile  
+- 💰 Balance and top-ups (CryptoBot)  
+- 🧩 Promo codes / discounts  
+- 🧷 Referral system  
+- 🆘 Support section  
+- 🌐 Multi-language support  
+- 🔎 Address/transaction checks (`check` section)  
+- 🗂️ Storage: SQLite (models/queries in `data/`)  
+
+---
+
+## 📂 Project Structure (simplified)
 ```
 AMLBot/
-├─ app/                  # хендлеры (balance, profile, check, promo, etc)
-├─ data/                 # работа с БД: users, promos (+ init script)
-├─ keyboards/            # клавиатуры
-├─ config.py             # загрузка .env и инициализация бота
-├─ main.py               # запуск и регистрация роутеров
-├─ .env                  # локальная конфигурация (не коммитим)
-└─ results/              # артефакты (если нужны)
+├─ app/ # handlers (balance, profile, check, promo, etc.)
+├─ data/ # database: users, promos (+ init script)
+├─ keyboards/ # keyboards
+├─ config.py # loads .env and bot initialization
+├─ main.py # startup and router registration
+├─ .env # local configuration (excluded from repo)
+└─ results/ # artifacts (if needed)
 ```
 
 ---
 
-## ⚙️ Переменные окружения
-Создайте `.env` на основе примера и заполните значения:
+## ⚙️ Environment Variables
+Create a `.env` file based on the example and provide values:
 ```dotenv
-BOT_TOKEN=        # токен Telegram-бота (обязательно)
-CRYPTO_TOKEN=     # токен CryptoBot (для пополнений)
-```
+BOT_TOKEN=        # Telegram bot token (required)
+CRYPTO_TOKEN=     # CryptoBot token (for top-ups)
 
-> `BOT_TOKEN` используется в `config.py`. `CRYPTO_TOKEN` — в модуле пополнений (CryptoBot).
+    BOT_TOKEN is used in config.py. CRYPTO_TOKEN is used in the CryptoBot top-up module.
 
----
+🚀 Installation & Run
+1) Clone the repository
 
-## 🚀 Установка и запуск
-
-### 1) Клонирование
-```bash
-git clone https://github.com/<username>/AMLBot.git
+git clone https://github.com/4eiz/AMLBot.git
 cd AMLBot
-```
 
-### 2) Виртуальная среда и зависимости
-```bash
+2) Virtual environment & dependencies
+
 python -m venv .venv
 # Linux/macOS:
 source .venv/bin/activate
 # Windows:
 # .venv\Scripts\activate
 
-# зависимости
-pip install -r req.txt  # если файл присутствует
-# или вручную:
+# install dependencies
+pip install -r req.txt  # if present
+# or manually:
 pip install aiogram python-dotenv aiosqlite
-```
 
-### 3) Настроить окружение
-```bash
+3) Configure environment
+
 cp .env.example .env
-# затем отредактируйте .env и вставьте ваши токены
-```
+# then edit .env and insert your tokens
 
-### 4) Запуск
-```bash
+4) Run the bot
+
 python main.py
-```
 
-> В `main.py` удаляется вебхук и запускается `start_polling()`.
+    In main.py, the webhook is removed and start_polling() is launched.
 
----
+🧪 Tests / Code Quality (optional)
 
-## 🧪 Тесты/качество кода (опционально)
-Рекомендуется добавить `pytest` и линтер (`ruff`/`flake8`) и настроить GitHub Actions.
+It is recommended to add pytest and a linter (ruff/flake8), and configure GitHub Actions.
+🛠 Useful Git Commands
 
----
-
-## 🛠 Полезные команды
-```bash
 git init
 git add .
 git commit -m "init AMLBot repo"
 git branch -M main
 git remote add origin https://github.com/<username>/AMLBot.git
 git push -u origin main
-```
 
----
+📜 License
 
-## 📜 Лицензия
-MIT — см. `LICENSE`
+MIT — see LICENSE
 
----
-
-**Автор:** Роберт • [Telegram](https://t.me/che1zi)
+Author: Robert • Telegram
