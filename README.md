@@ -41,17 +41,17 @@ Create a `.env` file based on the example and provide values:
 ```dotenv
 BOT_TOKEN=        # Telegram bot token (required)
 CRYPTO_TOKEN=     # CryptoBot token (for top-ups)
-
+```
     BOT_TOKEN is used in config.py. CRYPTO_TOKEN is used in the CryptoBot top-up module.
 
 🚀 Installation & Run
 1) Clone the repository
-
+```
 git clone https://github.com/4eiz/AMLBot.git
 cd AMLBot
-
+```
 2) Virtual environment & dependencies
-
+```
 python -m venv .venv
 # Linux/macOS:
 source .venv/bin/activate
@@ -62,32 +62,32 @@ source .venv/bin/activate
 pip install -r req.txt  # if present
 # or manually:
 pip install aiogram python-dotenv aiosqlite
-
+```
 3) Configure environment
-
+```
 cp .env.example .env
 # then edit .env and insert your tokens
-
+```
 4) Run the bot
-
+```
 python main.py
-
+```
     In main.py, the webhook is removed and start_polling() is launched.
 
 🧪 Tests / Code Quality (optional)
 
 It is recommended to add pytest and a linter (ruff/flake8), and configure GitHub Actions.
 🛠 Useful Git Commands
-
+```
 git init
 git add .
 git commit -m "init AMLBot repo"
 git branch -M main
 git remote add origin https://github.com/4eiz/AMLBot.git
 git push -u origin main
-
+```
 📜 License
 
 MIT — see LICENSE
 
-Author: Robert • Telegram
+Author: Robert • [Telegram](https://t.me/che1zi)
