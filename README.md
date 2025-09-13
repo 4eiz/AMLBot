@@ -42,7 +42,7 @@ Create a `.env` file based on the example and provide values:
 BOT_TOKEN=        # Telegram bot token (required)
 CRYPTO_TOKEN=     # CryptoBot token (for top-ups)
 ```
-    BOT_TOKEN is used in config.py. CRYPTO_TOKEN is used in the CryptoBot top-up module.
+> BOT_TOKEN is used in config.py. CRYPTO_TOKEN is used in the CryptoBot top-up module.
 
 🚀 Installation & Run
 1) Clone the repository
@@ -72,7 +72,7 @@ cp .env.example .env
 ```
 python main.py
 ```
-    In main.py, the webhook is removed and start_polling() is launched.
+> In main.py, the webhook is removed and start_polling() is launched.
 
 🧪 Tests / Code Quality (optional)
 
