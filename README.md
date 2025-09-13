@@ -1,8 +1,6 @@
 # 🛡️ AMLBot — Telegram Bot
 
-![Python](https://img.shields.io/badge/Python-3.10%2B-blue)  
-![Aiogram](https://img.shields.io/badge/aiogram-3.x-ff69b4)  
-![License](https://img.shields.io/badge/license-MIT-green)  
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue) ![Aiogram](https://img.shields.io/badge/aiogram-3.x-ff69b4) ![License](https://img.shields.io/badge/license-MIT-green)
 
 **AMLBot** — a multi-user Telegram bot built with **aiogram 3**, featuring balance management, top-ups via CryptoBot, user profiles, referral system, and address/transaction checks. Configuration is handled through `.env`. The database is SQLite (asynchronous).  
 
